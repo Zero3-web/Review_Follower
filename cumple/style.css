@@ -72,12 +72,6 @@ img {
     }
 }
 
-/* Estilos para globos */
-.balloons {
-    font-size: 2em;
-    margin-bottom: 10px;
-    animation: float 3s ease-in-out infinite;
-}
 
 /* Estilos para Happy Birthday */
 .happy-birthday {
@@ -88,45 +82,7 @@ img {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* Estilos para confeti */
-.confetti {
-    font-size: 1.5em;
-    margin-top: 20px;
-    animation: sparkle 2s ease-in-out infinite alternate;
-}
 
-/* Animación de flotación para globos */
-@keyframes float {
-    0%, 100% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
-}
-
-/* Animación de brillo para confeti */
-@keyframes sparkle {
-    0% {
-        opacity: 0.7;
-        transform: scale(1);
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1.1);
-    }
-}
-
-/* Efectos hover para interactividad */
-.birthday-card:hover {
-    transform: scale(1.02);
-    transition: transform 0.3s ease;
-}
-
-img:hover {
-    transform: rotate(5deg);
-    transition: transform 0.3s ease;
-}
 
 /* Estilos responsivos */
 @media (max-width: 768px) {
@@ -151,3 +107,4 @@ img:hover {
         font-size: 1.2em;
     }
 }
+
